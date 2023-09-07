@@ -15,6 +15,14 @@ veggy <- cabbages
 ```
 
 # Introduction
+The cabbages data from the MASS package is loaded into a data called veggy.
+
+Complete this report by answering theses following question 
+
+$H_0$ there is no difference in the Vitim C cultivation c39 and c52
+
+$H_A$ there is a statistically significant amount of Victim c in ether cultivation c39 or c52 
+
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
  The cabbages data from the MASS package is loaded into a dataframe called veggy. Complete this report by answering the following two questions  
@@ -74,5 +82,10 @@ The p-value is .00000003405. This is obviously shown in C39 and C52 these are ve
 
 
 # Discussion and Conclusion
+
+when i started I Load the Required Library: Start by loading the ggplot2 library in R, which is essential for creating customized plots. Then I made sure the data set (veggy in this case) loaded or available in your R environment. after that I Create the Boxplot: Using the ggplot() function to create the boxplot and specify the dataset and aesthetics. after I finished up with that I Label Axes. then lastly I Customize Axis Labels: Optionally, use the theme() function to customize the appearance of axis labels, such as changing the color and size of the x-axis label. And last but not least Display the Plot: The boxplot chart will be displayed once you run the complete code. Then finished it all up with the  summary.
+
+
+
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
