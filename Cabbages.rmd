@@ -32,6 +32,19 @@ veggy <- cabbages
 ## Descriptive Results
 
 ### Graphical Descriptive Results
+```{r}
+ggplot(veggy, aes(x = Cult, y = VitC)) +
+ geom_boxplot(fill = "lavender", color = "black", notch = TRUE, outlier.colour = "red") +
+  labs(x = "Cult", y = "Vitamin C")
+```
+per the boxplot, C52 shown a higher level of h=vitam C.
+
+bu looking at the two you can see they are disjoint. Indicating a probability of a significant difference. 
+
+
+
+
+
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
